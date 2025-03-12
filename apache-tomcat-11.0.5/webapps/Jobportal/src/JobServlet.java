@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 public class JobServlet extends HttpServlet {
     public String JDBC_URL = "jdbc:mysql://localhost:3306/jobportal";
     public String JDBC_USER = "root";
-    public String JDBC_PASSWORD = "root";
+    public String JDBC_PASSWORD = "********";
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         List<String[]> jobs = new ArrayList<>();
